@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Betriebsschluss
+Comment=
+Exec=xfce4-session-logout --halt
+Icon=system-shutdown
+Path=
+Terminal=false
+StartupNotify=false

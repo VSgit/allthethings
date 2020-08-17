@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Neustart
+Comment=
+Exec=xfce4-session-logout --reboot
+Icon=system-reboot
+Path=
+Terminal=false
+StartupNotify=false
