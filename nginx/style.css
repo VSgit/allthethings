@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.container {
+  margin: auto;
+  width: 400px;
+}
+
+.path--background {
+  fill: rgb(34, 213, 201);
+  stroke: #fff;
+  stroke-width: 0px;
+}
+
+.pulse {
+  fill: rgb(74, 255, 74) !important;
+}
+
+.path--foreground {
+  fill: #eee;
+  stroke: #eee;
+  stroke-width: 2px;
+}
+
+.label {
+  font: 90px "Open Sans";
+  font-weight: 900;
+  text-anchor: middle;
+  fill: rgb(34, 213, 201);
+}
+body {
+    font: normal 11px "Helvetica Neue", Helvetica, sans-serif;
+    user-select: none;
+    color: #888;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+    background: rgb(23, 23, 23);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(23, 23, 23, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(23, 23, 23, 1)), color-stop(100%, rgba(89, 89, 89, 1)));
